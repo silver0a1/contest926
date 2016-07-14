@@ -11,6 +11,14 @@ end
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3'
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem "rspec-rails"
+  gem "factory_girl_rails"
+  gem "capybara"
+  gem "fakeweb"
+  gem "guard"
+  gem "guard-rspec"
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
